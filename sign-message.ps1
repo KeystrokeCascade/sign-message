@@ -33,7 +33,7 @@ try {
 Write-Host "Port opened"
 
 # Clear screen
-$port.write("`r$blank")  # Take it from the top
+$port.write("`f")  # Take it from the top
 
 
 # Start HTTP listening

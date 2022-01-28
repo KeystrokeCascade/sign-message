@@ -32,6 +32,10 @@ try {
 }
 Write-Host "Port opened"
 
+# Clear screen
+$port.write("`r$blank")  # Take it from the top
+
+
 # Start HTTP listening
 $httpListener = New-Object System.Net.HttpListener
 $httpListener.Prefixes.Add("http://+:$ipbind/")

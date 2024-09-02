@@ -1,5 +1,5 @@
 # Sign Message
-Powershell script for recieving and displaying messages from a HTTP request, based on and configured for C2202-PD.
+PowerShell script for receiving and displaying messages from a HTTP request, based on and configured for C2202-PD.
 
 Assumes a sign with 2 rows and a length of 40 characters in total, character length can be easily changed however reconfiguring for more rows might take a bit more work.
 

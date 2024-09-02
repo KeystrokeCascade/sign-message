@@ -3,6 +3,7 @@ Powershell script for recieving and displaying messages from a HTTP request, bas
 
 Assumes a sign with 2 rows and a length of 40 characters in total, character length can be easily changed however reconfiguring for more rows might take a bit more work.
 
+---
 
 Messages can be sent with Powershell using
 ```Invoke-WebRequest "http://localhost:26604/?Your Text Here"```
